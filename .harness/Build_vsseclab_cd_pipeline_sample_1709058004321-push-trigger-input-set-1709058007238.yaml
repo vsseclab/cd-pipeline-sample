@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_vsseclab_cd_pipeline_sample_1709058004321-push-trigger-input-set
+  identifier: Build_vsseclab_cd_pipeline_sample_1709058004321pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: vssk8s
+  pipeline:
+    identifier: Build_vsseclab_cd_pipeline_sample_1709058004321
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
